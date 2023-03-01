@@ -216,19 +216,23 @@ main{
     color: #fff;
     border: 1px solid #6980D6;
     background-color: transparent;
+    transform: translateY(-10px);
+    box-shadow: 0px 19px 49px -9px rgba(184, 197, 208, 0.2);
 }
 
 .info__btn_wh{
     background: #6980D6;
     color:  #FFFFFF;
-
+    box-shadow: 0px 4px 15px #6980D6;
 }
 
 .info__btn_wh:hover{
     color: #6980D6;
     border: 1px solid #6980D6;
     background-color: transparent;
+    box-shadow: 0px 19px 49px -9px #6980D6;
 }
+
 
 @media(max-width:576px){
     header{
