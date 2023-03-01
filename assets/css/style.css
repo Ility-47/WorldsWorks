@@ -97,6 +97,16 @@ header{
     cursor: pointer;
 }
 
+.button__lng{
+    background-color: transparent;
+    color: #fff;
+}
+
+.button__lng_wh{
+    background-color: transparent;
+    color: #1A1A1A;
+}
+
 .checkbox{display:none}
 .switch {
     width: 62px;
@@ -221,7 +231,7 @@ main{
 }
 
 @media(max-width:576px){
-     header{
+    header{
         padding: 25px 0;
     }
     .logo{
